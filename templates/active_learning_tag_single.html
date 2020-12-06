@@ -1,0 +1,9 @@
+<p class="phrase">{{sample['phrase']}}</p>
+<!--<p class="intent">{{sample['intent']}}</p>-->
+<form id="tag_intent_form" class="tagger_form">
+{% for key, value in sample['intent'].items() %}
+    <input type="radio" id="{{key}}" name="check" value="{{key}}">
+    <label for="{{key}}">{{key}}</label>
+{% endfor %}
+    <input type="hidden" id="phrase_id" name="phrase_id" value="{{sample['rowid']}}">
+</form>

@@ -1,0 +1,10 @@
+<p class="phrase">{{sample['phrase']}}</p>
+<p class="intent">{{sample['intent']}}</p>
+<form id="check_intent_form" class="tagger_form">
+<!--    <input type="radio" id="check_null" name="check" value="NULL" checked>-->
+    <input type="radio" id="check_yes" name="check" value="1">
+    <label for="check_yes">Tak</label>
+    <input type="radio" id="check_no" name="check" value="0">
+    <label for="check_no">Nie</label>
+    <input type="hidden" id="phrase_id" name="phrase_id" value="{{sample['rowid']}}">
+</form>

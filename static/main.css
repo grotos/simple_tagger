@@ -1,0 +1,156 @@
+body {color:red;background-color:#f5f6fa}
+#container {width:720px; margin: 0 auto}
+#phrase-box {width:400px;background-color: #dcdde1;margin:4em auto;border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,0.8);display: flex;
+  flex-direction: column;
+    color:#2f3640;
+  align-items: center;}
+/*#phrase-box p {text-align:center;margin:1em}*/
+#check_null {display:none}
+p.phrase {font-style:italic}
+p.intent, p#checking_done {text-transform:uppercase;font-size:14px;font-weight:bold}
+p#checking_done{color:#44bd32;margin:1em}
+
+.tagger_form {
+  display: flex;
+  margin: 1em 0 ;
+  flex-wrap: wrap;
+  /*overflow: hidden;*/
+  width:400px;
+}
+
+label[for="check_yes"] {background-color:#44bd32}
+label[for="check_no"] {background-color:#e84118}
+
+.tagger_form label {
+  background-color: #00a8ff;
+  border-radius:5px;
+  font-size: 16px;
+  font-weight:bold;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 2px 10px;
+  margin: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+ }
+.tagger_form input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+
+
+body, h1, h2, h3, h4, h5, h6, figure, pre, dl, dd, blockquote, input[type="radio"], input[type="checkbox"] {margin:0}
+legend {padding:0}
+fieldset, ul, ol {padding:0;margin:0}
+ul, ol {list-style:none}
+body {line-height:1}
+main, figure, figcaption, img {display:block} /*--- <main> for IE 11 ---*/
+img {max-width:100%;height:auto}
+a {text-decoration:none}
+fieldset {border:0}
+input, textarea, select, button {display:block;max-width:100%;font-family:inherit;font-size:inherit;color:inherit}
+label {display:table}
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {-webkit-appearance:none} /*--- for Safari (add/remove types as needed) ---*/
+button {line-height:inherit}
+button::-moz-focus-inner {border:0} /*--- for Firefox ---*/
+html {-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:1.25em}
+
+
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: sans-serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+}
+/* Copy & Lists */
+p {
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem;
+}
+/* Hug the block above you */
+.hug {
+  margin-top: 0;
+}
